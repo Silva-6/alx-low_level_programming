@@ -5,7 +5,7 @@
 /**
  * main - Prints to the standard error
  *
- * return - Returns 0 (Success)
+ * return: Returns 0 (Success)
  */
 int main(void)
 {
