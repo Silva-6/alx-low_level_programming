@@ -3,7 +3,7 @@
 #include <time.h>
 
 /**
- * main - Prints a-z to standard output
+ * main - Prints a-zA-Z to standard output
  * Return: Exit status is zero means success
  */
 int main(void)
@@ -14,7 +14,6 @@ int main(void)
 		putchar(i);
 	for (i = 65; i <= 90; i++)
 		putchar(i);
-	putchar('\n');
-	
+	putchar('\n');	
 	return (0);
 }
