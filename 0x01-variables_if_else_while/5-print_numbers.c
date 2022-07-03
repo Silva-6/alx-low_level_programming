@@ -11,8 +11,9 @@ int main(void)
 	int i;
 
 	for (i = 0; i < 10; i++)
-		ptintf("%d", i);
-	printf('\n');
+		printf("%d", i);
+		if (!(i == 113 || i == 101))
+	printf("\n");
 
 	return (0);
 }
