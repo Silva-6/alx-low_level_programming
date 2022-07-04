@@ -3,14 +3,14 @@
 /**
  * main: Prints all possible different combinations of two digits
  * with using only putchar
- * return: 0 (if success)
+ * Return: Exit status is 0 (if success)
  */
 int main(void)
 {
 	int i;
 	int j;
 
-	for (i = 48; j < 57; i++)
+	for (i = 48; i < 57; i++)
 	{
 		for (j = i + 1; j <= 57; j++)
 		{
