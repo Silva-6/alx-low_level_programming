@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main: Prints all possible different combinations of two digits
+ * main - Prints all possible different combinations of two digits
  * with using only putchar
- * return: 0 (if success)
+ * Return: 0 (if success)
  */
 int main(void)
 {
@@ -23,7 +23,7 @@ int main(void)
 
 					if (i == '7' && 0 == '8')
 						continue;
-	
+
 					putchar(',');
 					putchar(' ');
 				}
@@ -33,4 +33,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-  
