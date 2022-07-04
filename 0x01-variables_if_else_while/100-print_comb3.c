@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main: Entry point
- * 
+ * main - Entry point
+ *
  * Return: Exit status is 0 (if success)
  */
 int main(void)
@@ -24,4 +24,4 @@ int main(void)
 	}
 	putchar('\n');
 	return (0);
-} 
+}
