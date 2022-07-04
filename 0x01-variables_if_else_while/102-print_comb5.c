@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 /**
- * main: Prints all possible different combinations of two digits
+ * main - Prints all possible different combinations of two digits
  * with using only putchar
- * return: 0 (if success)
+ * Return: 0 (if success)
  */
 int main(void)
 {
 	int i, o;
 
-	for (i = 0; i < 98; i++)
+	for (i = 0; i < 100; i++)
 	{
-		for (o = i + 1; o <= 99; o++)
+		for (o = i + 1; o <= 100; o++)
 		{
 			putchar((i / 10) + '0');
 			putchar((i % 10) + '0');
@@ -29,5 +29,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-}
-  
+}  
