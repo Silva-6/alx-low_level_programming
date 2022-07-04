@@ -21,7 +21,7 @@ int main(void)
 					putchar(o);
 					putchar(u);
 
-					if (i == '7' && 0 == '8')
+					if (i == '7' && o == '8')
 						continue;
 
 					putchar(',');
