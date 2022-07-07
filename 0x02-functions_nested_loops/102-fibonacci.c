@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	long int n1 = 1, result, n2= 2, nLast = 50;
+	long int n1 = 1, result, n2 = 2, nLast = 50;
 	int i;
 
 	printf("%lu, %lu, ", n1, n2);
