@@ -1,1 +1,1 @@
-Basic & Anvanced Low Level Coding In C - Hello, World || Others.
+Basic & Advanced Low Level Coding In C - Hello, World || Others.
