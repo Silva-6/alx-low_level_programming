@@ -8,10 +8,10 @@
 void times_table(void)
 {
 	int mm, nn, mul;
-	
+
 	for (mm = 0; mm <= 9; mm++)
 	{
-		for (nn = 0; nn <=9; nn++)
+		for (nn = 0; nn <= 9; nn++)
 		{
 			mul = mm * nn;
 			if (mul < 10)
