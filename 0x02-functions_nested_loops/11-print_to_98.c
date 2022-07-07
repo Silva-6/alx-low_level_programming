@@ -32,5 +32,5 @@ void print_to_98(int n)
 		}
 	}
 	else
-		print("%d\n", i);
+		printf("%d\n", i);
 }
