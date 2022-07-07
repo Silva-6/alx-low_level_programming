@@ -1,7 +1,7 @@
-#include <main.h>
+#include "main.h"
 
 /**
- * main - Prints _putchar
+ * main - Prints _putchar on the screen
  *
  * Return: On success, 0.
  */
@@ -13,7 +13,7 @@ int main(void)
 
 	for (i = 0; i < lenVar - 1; i++)
 	{
-		_putchar(text[i]);
+		_putchar(var[i]);
 	}
 	_putchar('\n');
 
