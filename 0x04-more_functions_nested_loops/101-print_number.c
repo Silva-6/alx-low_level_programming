@@ -1,5 +1,7 @@
 #include "main.h"
 
+void print(unsigned int d);
+
 /**
  * print_number - Prints an integer
  * @n: input integer
