@@ -1,4 +1,4 @@
-#inclue "main.h"
+#include "main.h"
 
 /**
  * main - Tests function that prints is positive or negative
@@ -12,5 +12,5 @@ int main(void)
 	i = 0;
 	positive_or_negative(i);
 
-	retun (0);
+	return (0);
 }
