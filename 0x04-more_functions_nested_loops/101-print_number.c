@@ -1,5 +1,6 @@
 #include "main.h"
 
+/* print declaration */
 void print(unsigned int d);
 
 /**
