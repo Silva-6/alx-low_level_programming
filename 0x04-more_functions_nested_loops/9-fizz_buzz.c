@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "main.h"
+#define stopVar 100
 
 /**
  * main - Fizz buzz challenge
@@ -8,23 +9,21 @@
  */
 int main(void)
 {
-	int i;
+	int i = 1;
 
-	for (i = 1; i <= 100; i++)
-	{
+	do {
 		if (i % 15 == 0)
-			printf("FizzBuzz ");
+			printf("FizzBuzz");
 		else if (i % 3 == 0)
-			printf("Fizz ");
+			printf("Fizz");
 		else if (i % 5 == 0)
-		{
-			if (i == 100)
-				printf("Buzz");
-			printf("Buzz ");
-		}
+			printf("Buzz");
 		else
-			printf("%d " i);
-	}
+			printf("%d", i);
+		if (i != stopVar)
+			printf(" ");
+		i++;
+	} while (i <= stopVar);
 	printf("\n");
 
 	return (0);
