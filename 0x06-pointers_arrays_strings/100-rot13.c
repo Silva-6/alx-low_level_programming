@@ -18,7 +18,7 @@ char *rot13(char *s)
 		{
 			if (s[i] == alphabet[j])
 			{
-				s[i] = ciphere[j];
+				s[i] = cipher[j];
 				break;
 			}
 		}
