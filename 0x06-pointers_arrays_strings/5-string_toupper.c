@@ -6,7 +6,7 @@
  *
  * Return: Uppercased string
  */
-char *string_touper(char *n)
+char *string_toupper(char *n)
 {
 	int i;
 
