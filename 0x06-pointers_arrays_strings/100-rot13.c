@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
- * rot13 - This implements the rot13 cipher algorith
- * @s: string to e ciphered
+ * rot13 - This implements the rot13 cipher algorithm
+ * @s: string to be ciphered
  *
  * Return: The ciphered string
  */
 char *rot13(char *s)
 {
 	int i, j;
+
 	char alphabet[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 	char cipher[] = "nopqrstuvwxyabcdefghijklmNOPQRSTUVWXYZABCDEFGHIJKLM";
 
