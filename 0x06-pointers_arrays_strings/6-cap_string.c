@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * cap_string - Capitalizes any beginning of a word
- * @s: to be capitalized
+ * cap_string - This Capitalizes any begining of a word
+ * @s: This is the string
  *
- * Return: The capitalized string
+ * Return: Gives back the capitalized string
  */
 char *cap_string(char *s)
 {
@@ -20,12 +20,13 @@ char *cap_string(char *s)
 		{
 			if (*(s + count) == sep_words[i])
 			{
-				if (*(s + (count + 1)) >= 97 && *(s = (count + 1)) <= 122)
+				if ((*(s + (count + 1)) >= 97) && (*(s + (count + 1)) <= 122))
 					*(s + (count + 1)) = *(s + (count + 1)) - 32;
 				break;
 			}
 		}
 		count++;
 	}
+
 	return (s);
 }
