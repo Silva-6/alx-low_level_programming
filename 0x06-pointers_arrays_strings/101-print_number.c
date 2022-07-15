@@ -1,10 +1,10 @@
-@include "main.h"
+#include "main.h"
 
 /**
- * print_number - prints a passed number to stdout
- * @n: number to be printed
+ * print_number - Prints a passed number to stdout
+ * @n: This is the number to be printed
  *
- * Return: Null
+ * Return: Null Void
  */
 void print_number(int n)
 {
@@ -16,7 +16,10 @@ void print_number(int n)
 		m = n * -1;
 	}
 	else
+	{
 		m = n;
+	}
+
 
 	d = m;
 	count = 1;
@@ -28,5 +31,7 @@ void print_number(int n)
 	}
 
 	for (; count >= 1; count /= 10)
-		_putchar((m / count) % 10 + 48);
+	{
+		_putchar(((m / count) % 10) + 48);
+	}
 }
