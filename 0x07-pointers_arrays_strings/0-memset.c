@@ -3,8 +3,7 @@
 /**
  * _memset - Fills the first n bytes of the memory area
  * pointed to by s with the constant byte b
- * 
- * _memset - Fills a buffer with a constant for a specified size
+ * Fills a buffer with a constant for a specified size
  * @s: This is the buffer to be filled
  * @b: This is the char that will be used to fill buffer
  * @n: This is the no of bytes to fill in the memory array of s
