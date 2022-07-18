@@ -8,7 +8,7 @@
  * @s: This is the buffer to be filled
  * @b: This is the char that will be used to fill buffer
  * @n: This is the no of bytes to fill in the memory array of s
- 
+ *
  * Return: a pointer to the memory area (s)
  */
 char *_memset(char *s, char b, unsigned int n)
