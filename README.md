@@ -1,1 +1,1 @@
-Ponters, Arrays, Srings
+LOW LEVEL PROGRAMMING - CODING in C
