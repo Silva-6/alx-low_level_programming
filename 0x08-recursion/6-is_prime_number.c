@@ -7,7 +7,7 @@
  *
  * Return: 1 if true, 0 otherwise
  */
-int is_prime(int n, int, y)
+int is_prime(int n, int y)
 {
 	if (n == 1)
 		return (0);
