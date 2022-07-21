@@ -21,7 +21,7 @@ int is_prime(int n, int y)
 
 /**
  * is_prime_number - Returns whether prime or not to main
- *
+ * @n: number to check
  * Return: 1 if prime, 0 if not
  */
 int is_prime_number(int n)
