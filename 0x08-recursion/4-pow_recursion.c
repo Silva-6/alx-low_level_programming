@@ -3,7 +3,7 @@
 /**
  * _pow_recursion -Returns the power
  * @x: The base
- * Qy: the exponent
+ * @y: the exponent
  *
  * Return: An int which is the power
  */
