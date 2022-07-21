@@ -16,7 +16,7 @@ int is_prime(int n, int y)
 	else if (n % y == 0 && y == n)
 		return (1);
 	else
-		return (is_prime(n, y + 1))
+		return (is_prime(n, y + 1));
 }
 
 /**
