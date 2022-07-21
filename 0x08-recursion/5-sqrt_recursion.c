@@ -25,4 +25,6 @@ int _sqrt(int n, int y)
  * Return: An int
  */
 int _sqrt_recursion(int n)
+{
 	return (_sqrt(n, 1));
+}
