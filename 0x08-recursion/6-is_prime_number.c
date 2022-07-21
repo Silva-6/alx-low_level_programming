@@ -25,4 +25,6 @@ int is_prime(int n, int, y)
  * Return: 1 if prime, 0 if not
  */
 int is_prime_number(int n)
+{
 	return (is_prime(n, 1));
+}
