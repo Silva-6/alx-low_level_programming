@@ -30,6 +30,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 	strcat(output, s1);
 	strcat(output, s2);
+	return (output);
 }
 
 /**
