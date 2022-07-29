@@ -2,10 +2,10 @@
 #include <stdlib.h>
 
 /**
- * malloc_checked - allocates a dynamic memory
- * @b: size of memory to be created
+ * malloc_checked - This provides a safe way of mallocing
+ * @b: This is the number of bytes to be malloced
  *
- * Return: pointer to the allocated memory
+ * Return: Void Pointer
  */
 void *malloc_checked(unsigned int b)
 {
@@ -14,6 +14,5 @@ void *malloc_checked(unsigned int b)
 	ptr = malloc(b);
 	if (ptr == NULL)
 		exit(98);
-
 	return (ptr);
 }
